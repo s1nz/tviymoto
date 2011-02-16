@@ -1,0 +1,10 @@
+<% @motorcycles.each do |m| %>
+<dl class="motorcycle">  
+    <dt><strong><%= m.manufacturer %></strong></dt>
+    <dd>Model: <%= m.model %></dd>
+    <dd>Dispalcement: <%= m.displacement %></dd>
+    <dd>Price: <%= m.price %></dd>
+    <dd>City: <%= m.city %></dd>
+    <dd>Year: <%= m.year %></dd>
+</dl>
+<% end %>
